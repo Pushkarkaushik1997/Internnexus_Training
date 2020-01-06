@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background: red;
+            position: relative;
+            animation: pushkar 5s 10 ;
+            }
+           @keyframes pushkar {
+               0%{
+                   background-color: aqua;
+                   transition:ease-in;
+                   transform: translateY(0px);
+               }
+               25%{
+                   background-color: red;
+                   transform: translateX(200px);
+                   
+               }
+               50%{
+                   background-color: blue;
+                   transform: scale(10,30);
+                   
+               }
+               75%{
+                   background-color: black;
+                   transform: rotate(30deg);
+                   transition-delay: 20s;
+                   
+               }
+               100%{
+                   background-color: aqua;
+                   transform: skew(30deg);
+                   
+               }
+
+               
+           } 
+    
+    </style>
+
+</head>
+<body>
+    <div>
+        Let's Rock and roll !!!
+    </div>
+    
+</body>
+</html>
